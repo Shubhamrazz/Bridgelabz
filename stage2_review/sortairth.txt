@@ -1,0 +1,45 @@
+**********ALGORITHM**********
+Step 1
+first have taken/generated three user input from the terminal a , b , c.
+like:
+     read -p "Enter the first number": a
+     read -p "Enter the second number": b
+     read -p "Enter the third number": C
+
+Step 2
+secondly we have made four variable named as: UC2,UC3,UC4,UC5
+
+Step 3
+thirdly we had assing all the four airthmatic operation inside respective variable.
+like:
+    UC2=$(($a+$b*$c))
+    UC3=$(($a*$b+$c))
+    UC4=$(($c+$a/$b))
+    UC5=$(($a%$b+$c))
+
+Step 4
+forthly we are printing all airthmatic exprestion which has taken place inside respective
+variable.
+like:
+    echo"Second : $UC2";
+    " 
+    "
+    "
+    echo"fifth : $UC5":
+
+Step 5
+Then we had declared a dictionary
+like:
+     decclare -A airthmatics
+
+Step 6
+Then we had assign the values inside respective key of dictionary
+
+Step 7
+Then read into array
+like:
+     echo "Read all the results : ${airthmatics[@]}"
+
+Step 8
+Sort the array in assending and decending order
+

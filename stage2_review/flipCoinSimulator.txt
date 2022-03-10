@@ -1,0 +1,27 @@
+**************Algorithm*************
+Step1:
+we had assign two variable head and tail with 0 value in it
+
+Step 2: 
+Then we had while loop and condition for while loop is 
+head -lt 21 && tail -lt 21
+
+Step 3:
+Inside while loop we had Random value assign to Result variable in %2 
+means only 0,1 value will be iterated.
+then we had echo $Result to print the value
+
+Step 4:
+Then we had If Else statement:
+  if [`expr $Result == 0`]
+    then
+      head=$(($head+1))
+    else
+      tail=$(($tail+1))
+fi
+
+Step 5:
+When we come out of the while loop 
+echo "heads count win" $head
+echo "tails count win" $tail
+

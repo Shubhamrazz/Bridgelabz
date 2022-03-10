@@ -5,7 +5,7 @@ while [ $head -lt 21 ] && [ $tail -lt 21 ]
 do
         Result=$(( RANDOM%2 ))
        echo $Result
-    if [ `expr $Result == 0` ]
+    if [ $Result -eq 0 ]
        then
             head=$(($head+1))
        else
